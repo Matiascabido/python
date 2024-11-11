@@ -33,3 +33,15 @@ print(
 
 # Repete
 print('Hola, ' * 4)
+
+# Salto de linea
+print('Esto es un: \nIn velit ut ad voluptate.')
+
+# Tabulacion
+print('\tEsto es un: In velit ut ad voluptate.')
+
+# Tabulacion y salto de linea
+print('\tEsto es un: In velit \nut ad voluptate.')
+
+# Escapar caracteres especiales
+print('\\tEsto es un: In velit \\nut ad voluptate.')
