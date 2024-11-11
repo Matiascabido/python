@@ -17,3 +17,16 @@ print(type(2.3))                # Float
 print(type(1+4j))               # Complex
 print(type(3//4))               # Int
 print(type(True))               # Bool
+
+
+# Concatenacion
+print('Hello', ',', 'World', '!')
+print('Hello', ',', str(12), True)
+print(
+    len(str(12)), 
+    len([str(12), True]),
+    len({str(12), True}),
+    len(''), 
+    len([]), 
+    len({}),
+)
