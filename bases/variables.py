@@ -66,10 +66,19 @@ print('Player:', name, last_name, 'Alias:', alias,'Hours:', hours, 'Active:', ac
 
 # Variables [* inputs *]
 
-firts_name = input('Como te yamas? ')
-alias = input('Alias tene? ') # Se reasigna un valor previamente asignado.
-age = input('Cuantos años tene?')
+# firts_name = input('Como te yamas? ')
+# alias = input('Alias tene? ') # Se reasigna un valor previamente asignado.
+# age = input('Cuantos años tene?')
 
-print('Name', firts_name, 'Age', age, 'Alias', alias)
+# print('Name', firts_name, 'Age', age, 'Alias', alias)
+
+# /////////////////////////////////// #
+
+# Variables [* tipado *]
+
+paragraph: str = 'Ipsum proident velit dolor ad irure enim eu in eiusmod ut ex aute.'
+print('Paragraph', paragraph, type(paragraph))
+paragraph = len(paragraph)
+print('Paragraph', paragraph, type(paragraph))
 
 # /////////////////////////////////// #

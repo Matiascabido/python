@@ -30,3 +30,6 @@ print(
     len([]), 
     len({}),
 )
+
+# Repete
+print('Hola, ' * 4)
