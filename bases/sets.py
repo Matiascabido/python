@@ -38,3 +38,11 @@ print('Existe "c" en {"a", "b", "c"} =>', "c" in hollywood_set_2)
 # Limpiar set
 hollywood_set_2.clear()
 print('Tamaño del Set_alt_2: ', len(hollywood_set_2))
+
+# Unir dos sets
+hollywood_set_2 = {'Pixar', 'Warner Bro', 'DreamWorks', 'Lucas Films'}
+hollywood = hollywood_set.union(hollywood_set_2)
+print('El total de sets: ', hollywood)
+
+# Diferencias
+print('Diferencias entre sets: ', hollywood_set_2.difference(hollywood_set) )
